@@ -16,26 +16,15 @@
     Piscis	19 de febrero	20 de marzo         0219 / 0320 */
 
 
-/* let birthDate = +prompt ("Inserte MES y DÍA de nacimiento (MMDD):");
-
-
- if (birthDate >= 0321 && birthDate <= 0419)
-{
-    alert ("Tu signo zodiacal es");
-}
-else 
-{
-    alert ("Tu signo nonnono")
-}   */
-
 
 function numberInBetween(startingNumber, endingNumber, givenNumber){
 
-    if(givenNumber > startingNumber && givenNumber < endingNumber)
-        console.log(`Given number ${givenNumber} falls between ${startingNumber} and ${endingNumber}`);
-    else
-        console.log("Given number does not fall between within the given range");
+    (givenNumber > startingNumber && givenNumber < endingNumber) ?
+        alert(`Given number ${givenNumber} falls between ${startingNumber} and ${endingNumber}`)
+        :
+    alert("Given number does not fall between within the given range");
+    }
 
-}
-
-numberInBetween(10,50,60);
+    numberInBetween (startingNumber=321,
+        endingNumber= 419,
+        givenNumber= +prompt ("Inserte MES y DIA de nacimiento"))
