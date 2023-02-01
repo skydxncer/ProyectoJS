@@ -17,14 +17,42 @@
 
 
 
-function numberInBetween(startingNumber, endingNumber, givenNumber){
+// function aries (desdeFecha, hastaFecha, birthDate){
 
-    (givenNumber > startingNumber && givenNumber < endingNumber) ?
-        alert(`Given number ${givenNumber} falls between ${startingNumber} and ${endingNumber}`)
-        :
-    alert("Given number does not fall between within the given range");
-    }
+//     (birthDate > desdeFecha && birthDate < hastaFecha ?
+//         alert("Tu signo es de Aries")
+//         :
+//     alert("Fecha inexistente"));
+//     }
 
-    numberInBetween (startingNumber=321,
-        endingNumber= 419,
-        givenNumber= +prompt ("Inserte MES y DIA de nacimiento"))
+//     aries (desdeFecha="0321",
+//         hastaFecha= "0419",
+//         birthDate= prompt ("Inserte MES y DIA de nacimiento"))
+
+
+// function tauro (desdeFecha, hastaFecha, birthDate) 
+
+// {
+//     (birthDate > desdeFecha && birthDate < hastaFecha ?
+//         alert("Tu signo es de Tauro")
+//         :
+//     alert("Fecha inexistente"));
+//     }
+
+
+//     tauro (desdeFecha="0420",
+//         hastaFecha= "0520",
+//         birthDate= prompt ("Inserte MES y DIA de nacimiento"))
+
+var Animal = 'Jirafa';
+switch (Animal) {
+  case 'Vaca':
+  case 'Jirafa':
+  case 'Perro':
+  case 'Cerdo':
+    console.log('Este animal subirá al Arca de Noé.');
+    break;
+  case 'Dinosaurio':
+  default:
+    console.log('Este animal no lo hará.');
+}
