@@ -1,13 +1,10 @@
-let generico = Number( prompt("Ingrese un valor") )
-let generico2 = Number( prompt("Ingrese un valor") )
-let resultado = generico + generico2
+// let salarioBasico = 1.0 * Number( prompt("Ingrese su salario") )
+// alert ("Su salario con aumento del 30% es: " + salarioBasico)
+// alert(typeof precioProducto)
 
-alert(resultado)
+let precioProducto = Number(prompt ("Ingrese valor"))
+alert ("El valor ingresado es: " + precioProducto)
 
+let productoDescuento = precioProducto - ((precioProducto * 1.1) - precioProducto)
 
-
-
-
-
-
-// console.log(typeof generico)
+alert ("El producto con descuento del 10%: " + productoDescuento)
